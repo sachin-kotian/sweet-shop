@@ -32,28 +32,7 @@ This project allows users to browse, view details, and purchase traditional Indi
 
 ## 📂 Project Structure
 
-
-
-sweetshop/
-│
-├── backend/
-│ ├── src/
-│ │ ├── index.ts # Main Express server
-│ │ ├── routes/ # API route handlers
-│ │ ├── prisma/ # Prisma schema and client
-│ ├── package.json
-│ ├── prisma/
-│ │ ├── schema.prisma # Prisma data model
-│
-├── frontend/
-│ ├── src/
-│ │ ├── components/ # React components (SweetList, SweetDetail, BuyPage)
-│ │ ├── pages/ # Individual pages
-│ │ ├── App.jsx
-│ ├── package.json
-│ ├── vite.config.js
-│
-└── README.md
+<img width="801" height="768" alt="Screenshot (186)" src="https://github.com/user-attachments/assets/46730cce-8e1b-430c-bceb-aa19bc2b74db" />
 
 
 ---
@@ -61,7 +40,7 @@ sweetshop/
 ## ⚙️ Installation and Setup
 
 ### 1️⃣ Clone the Repository
-```bash
+
 
 git clone https://github.com/your-username/sweetshop.git
 cd sweetshop
@@ -95,35 +74,45 @@ Frontend runs on http://localhost:5173
 📸 Screenshots
 🗂️ Prisma Studio
 
+<img width="1877" height="561" alt="Screenshot (179)" src="https://github.com/user-attachments/assets/bcc7a326-4f7f-4229-afa3-c35f12b07beb" />
+
+
 Manage sweets directly through Prisma Studio.
 
 
 🖥️ Backend Running
+<img width="1920" height="561" alt="Screenshot (180)" src="https://github.com/user-attachments/assets/20bb3e15-9dbb-40eb-b66d-8e495235295c" />
+
 
 Backend successfully running on port 5000.
 
 
 🏪 Sweet Shop Home
+<img width="1920" height="1080" alt="Screenshot (181)" src="https://github.com/user-attachments/assets/7e08c747-a98c-4843-9b60-11314643f13e" />
 
 Displays all available sweets with prices and descriptions.
 
 
 🍬 Sweet Details
+<img width="1920" height="1080" alt="Screenshot (182)" src="https://github.com/user-attachments/assets/897d0733-ded7-4d35-966e-0be7634a21f4" />
 
 View full details of selected sweet.
 
 
 💸 Buy Page
+<img width="1920" height="1080" alt="Screenshot (183)" src="https://github.com/user-attachments/assets/0fda04fb-e986-42b2-9814-c19d91745bd4" />
 
 Confirm purchase with quantity selection and validation.
 
 
 ✅ Purchase Confirmation
+<img width="1920" height="1080" alt="Screenshot (184)" src="https://github.com/user-attachments/assets/a3b33b61-4587-4b45-997a-71af04a427e7" />
 
 Purchase confirmation alert.
 
 
 ❌ Purchase Error
+<img width="1920" height="1080" alt="Screenshot (185)" src="https://github.com/user-attachments/assets/bf898c0a-e60a-4ae1-935e-a01aad109918" />
 
 Validation error if purchase exceeds available quantity.
 
